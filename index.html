@@ -2,8 +2,7 @@
 <html lang="en-NZ">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<style>body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 <title>NZ Election Simulator 2026</title>
@@ -810,7 +809,7 @@ body.viewsmode .mast .resetbox{display:none}
     <div class="presets snr" role="group" aria-label="How far back to show"><span class="label">Show</span><button class="btn" type="button" data-pr="year" id="pr-year">This year</button><button class="btn" type="button" data-pr="term" id="pr-term">Since the 2023 election</button></div>
     <div class="chips" id="polllegend"></div>
     <div id="pollchart"></div>
-    <p class="small">Sources: 1News–Verian, RNZ–Reid Research, Taxpayers' Union–Curia, Roy Morgan, Talbot Mills, The Post/Freshwater Strategy and Anacta, as collected in Wikipedia's polling table and news reports, from the October 2023 election to 8 October 2026. Pollsters use different methods, and some polls are paid for by groups with a political viewpoint, so look at the trend across several rather than trusting one.</p>
+    <p class="small">Sources: 1News–Verian, RNZ–Reid Research, Taxpayers' Union–Curia, Roy Morgan, Talbot Mills, The Post/Freshwater Strategy and Anacta, as collected in Wikipedia's polling table and news reports, from the October 2023 election to 29 October 2026. Pollsters use different methods, and some polls are paid for by groups with a political viewpoint, so look at the trend across several rather than trusting one.</p>
     <details class="sub snr">
       <summary>See the most recent polls as a table</summary>
       <div class="tscroll" style="margin-top:10px"><table id="polltable"></table></div>
@@ -1101,7 +1100,7 @@ body.viewsmode .mast .resetbox{display:none}
 </main>
 
 <footer>
-  <div class="wrap">A classroom resource, last updated 8 October 2026. It is not connected to the Electoral Commission, TVNZ or any political party, and it does not tell anyone how to vote.</div>
+  <div class="wrap">A classroom resource, last updated 29 October 2026. It is not connected to the Electoral Commission, TVNZ or any political party, and it does not tell anyone how to vote.</div>
 </footer>
 
 <div class="strip" id="strip" hidden>
@@ -1272,8 +1271,16 @@ var POLLS=[
 ['2026-09-03','Taxpayers’ Union–Curia',29,25.9,13.9,10.5,8.4,2,4.5],
 ['2026-09-10','Anacta',30,31,12,8,10,2,7],
 ['2026-09-27','1News–Verian',28,28,16,11,9,1,6],
+['2026-09-27','Roy Morgan',31,23.5,16,11,10,2,6.5],
 ['2026-10-01','RNZ–Reid Research',25.9,30.8,14.8,9,10.6,2,5.5],
-['2026-10-04','1News–Verian',29,28,16,9,10,1,7,'released 6 Oct']
+['2026-10-05','1News–Verian',29,28,16,9,10,1,7],
+['2026-10-05','Taxpayers’ Union–Curia',28.5,28.2,13.3,9.2,12,1.4,4.8],
+['2026-10-12','Anacta',28,29,15,9,10,1.9,5.4,'reported 17 Oct'],
+['2026-10-12','1News–Verian',28,28,15,10,10,0.4,8],
+['2026-10-19','The Post/Freshwater',27.6,28.7,14.3,9,11.8,2,5.4],
+['2026-10-19','1News–Verian',32,27,16,11,8,0.7,7],
+['2026-10-25','1News–Verian',28.9,27.3,14.8,12.4,10,0.1,6.3],
+['2026-10-26','RNZ–Reid Research',24.8,30.6,14.5,10.1,9.9,1.9,7.2]
 ];
 var ISSUES=[['Cost of living',61],['Healthcare',39],['The economy',33],['Petrol prices',26],['Housing',21],['Unemployment',19],['Poverty and inequality',17],['Crime',16]];
 var PROFILES=[
